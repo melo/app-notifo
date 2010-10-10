@@ -130,16 +130,18 @@ L<notifo.com service|http://notifo.com/>.
 This module parses the command line options and call
 L<WebService::Notifo/send_notification> to send the notification.
 
+=head1 CONSTRUCTORS
+
+=head2 new
+
+Creates an empty C<App::Notifo> object.
+
 =head1 METHODS
 
 =head2 run
 
 Parses the command line options and calls the L<WebService::Notifo> to
 send the notification.
-
-=constructor new
-
-Creates an empty C<App::Notifo> object.
 
 =head1 SEE ALSO
 
