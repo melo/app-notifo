@@ -14,7 +14,6 @@ use Pod::Usage;
 sub new { return bless {}, shift }
 
 
-
 sub run {
   my $self = shift;
 
