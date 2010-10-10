@@ -18,4 +18,4 @@ requires:
   WebService::Notifo: 0
 resources:
   repository: http://github.com/melo/app-notifo.git
-version: 0.001
+version: 0.002

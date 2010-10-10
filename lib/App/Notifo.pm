@@ -1,6 +1,6 @@
 package App::Notifo;
 BEGIN {
-  $App::Notifo::VERSION = '0.001';
+  $App::Notifo::VERSION = '0.002';
 }
 
 # ABSTRACT: command-line tool to send a notification to notifo.com
@@ -115,7 +115,7 @@ App::Notifo - command-line tool to send a notification to notifo.com
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
