@@ -11,7 +11,6 @@ dist.ini
 lib/App/Notifo.pm
 t/00-compile.t
 t/release-distmeta.t
-t/release-eol.t
 t/release-no-tabs.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t

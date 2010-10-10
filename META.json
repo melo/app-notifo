@@ -18,14 +18,21 @@
          "requires" : {
             "ExtUtils::MakeMaker" : "6.31"
          }
+      },
+      "runtime" : {
+         "requires" : {
+            "Getopt::Long" : 0,
+            "Pod::Usage" : 0,
+            "WebService::Notifo" : 0
+         }
       }
    },
    "release_status" : "stable",
    "resources" : {
       "repository" : {
          "type" : "git",
-         "url" : "http://github.com/melo/NAME.git",
-         "web" : "http://github.com/melo/NAME/"
+         "url" : "http://github.com/melo/app-notifo.git",
+         "web" : "http://github.com/melo/app-notifo/"
       }
    },
    "version" : "0.001"

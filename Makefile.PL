@@ -21,7 +21,11 @@ my %WriteMakefileArgs = (
   ],
   'LICENSE' => 'artistic_2',
   'NAME' => 'App::Notifo',
-  'PREREQ_PM' => {},
+  'PREREQ_PM' => {
+    'Getopt::Long' => '0',
+    'Pod::Usage' => '0',
+    'WebService::Notifo' => '0'
+  },
   'VERSION' => '0.001',
   'test' => {
     'TESTS' => 't/*.t'

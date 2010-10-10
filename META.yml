@@ -12,6 +12,10 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: App-Notifo
+requires:
+  Getopt::Long: 0
+  Pod::Usage: 0
+  WebService::Notifo: 0
 resources:
-  repository: http://github.com/melo/NAME.git
+  repository: http://github.com/melo/app-notifo.git
 version: 0.001

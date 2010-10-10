@@ -11,20 +11,9 @@ use WebService::Notifo;
 use Getopt::Long;
 use Pod::Usage;
 
-=constructor new
-
-Creates an empty C<App::Notifo> object.
-
-=cut
 sub new { return bless {}, shift }
 
 
-=method run
-
-Parses the command line options and calls the L<WebService::Notifo> to
-send the notification.
-
-=cut
 
 sub run {
   my $self = shift;
@@ -117,7 +106,17 @@ sub _slice {
 
 1;
 
-__END__
+
+
+=pod
+
+=head1 NAME
+
+App::Notifo - command-line tool to send a notification to notifo.com
+
+=head1 VERSION
+
+version 0.001
 
 =head1 SYNOPSIS
 
@@ -131,10 +130,35 @@ L<notifo.com service|http://notifo.com/>.
 This module parses the command line options and call
 L<WebService::Notifo/send_notification> to send the notification.
 
+=head1 METHODS
+
+=head2 run
+
+Parses the command line options and calls the L<WebService::Notifo> to
+send the notification.
+
+=constructor new
+
+Creates an empty C<App::Notifo> object.
 
 =head1 SEE ALSO
 
 L<WebService::Notifo>, L<Protocol::Notifo>
 
+=head1 AUTHOR
+
+Pedro Melo <melo@simplicidade.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is Copyright (c) 2010 by Pedro Melo.
+
+This is free software, licensed under:
+
+  The Artistic License 2.0
 
 =cut
+
+
+__END__
+

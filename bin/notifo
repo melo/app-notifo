@@ -7,7 +7,17 @@ use App::Notifo;
 # ABSTRACT: send notification via notifo.com service
 App::Notifo->new->run;
 
-__END__
+
+
+=pod
+
+=head1 NAME
+
+notifo::cmdline - send notification via notifo.com service
+
+=head1 VERSION
+
+version 0.001
 
 =head1 SYNOPSIS
 
@@ -20,7 +30,6 @@ __END__
     or
     
     other_cmd | notifo --api-key KEY --user USER
-
 
 =head1 DESCRIPTION
 
@@ -35,7 +44,6 @@ C<$HOME/.notifo.rc>, and it should be something like this:
     user: your_api_user
 
 See L<Protocol::Notifo/"CONFIGURATION FILE"> for all the details.
-
 
 =head1 OPTIONS
 
@@ -72,4 +80,20 @@ The application sending this notification.
 
 =back
 
+=head1 AUTHOR
+
+Pedro Melo <melo@simplicidade.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is Copyright (c) 2010 by Pedro Melo.
+
+This is free software, licensed under:
+
+  The Artistic License 2.0
+
 =cut
+
+
+__END__
+
