@@ -22,7 +22,6 @@ Parses the command line options and calls the L<WebService::Notifo> to
 send the notification.
 
 =cut
-
 sub run {
   my $self = shift;
 
@@ -119,6 +118,7 @@ __END__
 =head1 SYNOPSIS
 
     # See notifo --man
+
 
 =head1 DESCRIPTION
 

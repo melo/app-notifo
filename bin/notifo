@@ -47,8 +47,6 @@ The following options are available:
 
 Specify the notifo.com API user to use.
 
-=back
-
 =item --api-key or -k
 
 Specifies the notifo.com API key to use.
