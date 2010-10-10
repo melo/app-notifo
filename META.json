@@ -1,0 +1,33 @@
+{
+   "abstract" : "command-line tool to send a notification to notifo.com",
+   "author" : [
+      "Pedro Melo <melo@simplicidade.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.102341, CPAN::Meta::Converter version 2.101670",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "App-Notifo",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.31"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "repository" : {
+         "type" : "git",
+         "url" : "http://github.com/melo/NAME.git",
+         "web" : "http://github.com/melo/NAME/"
+      }
+   },
+   "version" : "0.001"
+}
+
